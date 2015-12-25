@@ -1,0 +1,18 @@
+using System;
+
+class Comparer
+{
+    static void Main()
+    {
+        //Write a program that gets two numbers from the console and prints the greater of them.
+        //Try to implement this without if statements.
+
+        Console.WriteLine("a = ");
+        double a = double.Parse(Console.ReadLine());
+        Console.WriteLine("b = ");
+        double b = double.Parse(Console.ReadLine());
+        double max = Math.Max(a, b);
+        Console.WriteLine(max);
+    }
+}
+
