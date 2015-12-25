@@ -1,0 +1,2 @@
+# ConsoleInputOutputHomework
+Homework excersices
