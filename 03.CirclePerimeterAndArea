@@ -1,0 +1,15 @@
+using System;
+
+class PerAndArea
+{
+    static void Main()
+    {
+        //Write a program that reads the radius r of a circle and prints its perimeter and area 
+        //formatted with 2 digits after the decimal point. 
+
+        Console.WriteLine("r = ");
+        double radius = double.Parse(Console.ReadLine());
+        Console.WriteLine("Perimeter: {0:F2}", 2*Math.PI*radius);
+        Console.WriteLine("Area: {0:F2}", Math.PI*radius*radius);
+    }
+}
